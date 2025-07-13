@@ -6,8 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "release": "standard-version",
-    "prepublishOnly": "npm run release && git push --follow-tags && npm publish"
+    "release": "standard-version"
   },
   "keywords": [
     "geolocation",
