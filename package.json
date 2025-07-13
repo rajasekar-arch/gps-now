@@ -1,0 +1,31 @@
+{
+  "name": "gps-now",
+  "version": "1.0.0",
+  "description": "A lightweight geolocation utility to return latitude and longitude even when offline using the device’s GPS.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "release": "standard-version",
+    "prepublishOnly": "npm run release && git push --follow-tags && npm publish"
+  },
+  "keywords": [
+    "geolocation",
+    "gps",
+    "offline",
+    "latitude",
+    "longitude",
+    "typescript"
+  ],
+  "author": "RAJASEKAR E C <rajasekar_e_c@outlook.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajasekar-arch/gps-now.git"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/rajasekar-arch/gps-now/issues"
+  },
+  "homepage": "https://github.com/rajasekar-arch/gps-now#readme"
+}
