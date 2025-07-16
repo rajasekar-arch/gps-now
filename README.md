@@ -31,11 +31,11 @@ Configure enableHighAccuracy, timeout, and maximumAge as needed.
 ## 🚀 Installation
 
 ```bash
-npm install collageify
+npm install gps-now
 
 or
 
-yarn add collageify
+yarn add gps-now
 ```
 
 # 📌 Usage
